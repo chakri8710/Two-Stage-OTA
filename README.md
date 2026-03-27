@@ -18,12 +18,12 @@ The performance of an OTA depends on parameters such as gain, bandwidth, slew ra
 The OTA operates on the principle:
 
 \[
-I_{out} = g_m (V^+ - V^-)
+I_out = g_m (V+ - V-)
 \]
 
 where:
 - \( g_m \) is the transconductance
-- \( V^+ \), \( V^- \) are input voltages
+- \( V+ \), \( V- \) are input voltages
 
 ---
 
@@ -119,4 +119,4 @@ Key design considerations:
 
 ---
 
-## Project Structure
+
